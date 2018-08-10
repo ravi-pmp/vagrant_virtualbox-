@@ -1,0 +1,6 @@
+---
+- name: collect facts 
+  hosts: all 
+  tasks:
+    - name: get facts
+      setup: 
